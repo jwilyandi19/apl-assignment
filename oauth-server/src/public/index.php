@@ -15,7 +15,7 @@ date_default_timezone_set('Asia/Jakarta');
 
 require __DIR__ . '/../vendor/autoload.php';
 
-require_once APP_PATH . '/Bootstrap.php';
+require_once APP_PATH . '/bootstrap.php';
 
 $app = new Bootstrap('oauth');
 
